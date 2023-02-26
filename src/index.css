@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+button.btn.btn-custom-dictionary,button.btn.btn-custom-dictionary:hover
+{
+  background-color: #067597 !important; 
+  color:#fff !important;
+}

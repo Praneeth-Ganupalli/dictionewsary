@@ -1,0 +1,41 @@
+body.body-dictionary{
+    background-color: #067597 !important;
+}
+div.dict-main-container
+{
+    margin-top:50px;
+}
+input.kw-input{
+    width: 100%;
+    border: none;
+    border-bottom: 3px solid #bcccdc;
+    max-width: 600px;
+    background: transparent;
+    font-size: 1rem;
+    color: #324d67;
+    color: var(--bs-white);
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    padding-bottom: 0.75rem;
+    padding-top:0.25rem;
+}
+section.meaning-section
+{
+    width: 100%;
+    /* max-width: 600px; */
+    border: 5px solid #fff;
+    border-right: 10px solid #fff;
+    padding: 1rem;
+}
+div.word-pronunciation
+{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+@media screen and (max-width:768px){
+    h3.back-to-home{
+        margin-top: 1rem ;
+        margin-right: 1rem !important;
+    }
+}
